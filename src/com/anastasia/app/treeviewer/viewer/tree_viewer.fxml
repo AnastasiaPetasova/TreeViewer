@@ -1,0 +1,20 @@
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<GridPane fx:controller="com.anastasia.app.treeviewer.viewer.TreeViewerController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+    <Canvas fx:id="tree_canvas" GridPane.rowIndex="0"/>
+
+    <HBox GridPane.rowIndex="1" spacing="20" alignment="CENTER_RIGHT">
+        <TextField fx:id="input_textField" />
+        <Button fx:id="task28_button" text="TASK 28"/>
+        <Button fx:id="task33_button" text="TASK 33"/>
+        <Button fx:id="task39_button" text="TASK 39"/>
+        <Button fx:id="task43_button" text="TASK 43"/>
+        <Button fx:id="task47_button" text="TASK 47"/>
+
+    </HBox>
+
+</GridPane>
